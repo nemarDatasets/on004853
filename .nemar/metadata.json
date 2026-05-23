@@ -1,23 +1,69 @@
 {
   "version": "2.0",
-  "dataset_id": "on004853",
-  "source": "openneuro",
-  "source_id": "ds004853",
+  "pipeline_stage": "enriched",
   "title": "TX17",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Tony Johnson": {},
     "Stephen Gordon": {},
     "Jon Touryan": {},
     "Kevin King": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004853.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004853",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004853",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004853",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "82.8 MB (3 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "TX17 is an EEG dataset derived from OpenNeuro dataset ds004853 (v1.0.0). The dataset contains electroencephalography recordings and associated metadata organized according to Brain Imaging Data Structure (BIDS) standards.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "brain imaging"
+    }
+  ],
+  "source_hash": "3a15d14e8c501125f8e57df2e58ae5124b59fee778e5c46638eeb39f2e0392b9"
 }
