@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "TX17",
+  "description": "TX17 is an EEG dataset formatted according to BIDS with HED annotations, contributed by Johnson, Gordon, Touryan, and King. The README describes it only as a placeholder, so no further details on the experimental paradigm or participants are provided. It is a NEMAR-hosted copy of an OpenNeuro deposit.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,6 +11,22 @@
     "Jon Touryan": {},
     "Kevin King": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "HED annotations"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004853.v1.0.0",
@@ -22,22 +39,22 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004853",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004853",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004853",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "82.8 MB (3 files)"
+    "78.93 MB (3 files)"
   ],
   "formats": [
     ".fdt",
@@ -46,24 +63,6 @@
     ".set",
     ".tsv",
     ".yml"
-  ],
-  "description": "TX17 is an EEG dataset derived from OpenNeuro dataset ds004853 (v1.0.0). The dataset contains electroencephalography recordings and associated metadata organized according to Brain Imaging Data Structure (BIDS) standards.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "brain imaging"
-    }
   ],
   "source_hash": "3a15d14e8c501125f8e57df2e58ae5124b59fee778e5c46638eeb39f2e0392b9"
 }
